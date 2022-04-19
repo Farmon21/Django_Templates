@@ -1,0 +1,108 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django-Porto-Folio</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body> <br> <br>
+    <div class="container">
+        <div class="columns">
+            <div style="border: 5px solid  rgb(150, 201, 213);" class="column is-3">
+                <div class="card"> <br>
+                    <div class="card-image">
+                        <figure class="image is-square">
+                            <a href=""><img class="is-rounded" src="{% static 'images/Farmon21.jpg' %}" alt="Farmon21"></a>
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content has-text-centered">
+                                <p class="title is-4 pt-4">
+                                    Hi I'm Farmon
+                                </p>
+                                <p class="subtitle is-6 pt-4">
+                                    I Love Coding, Doing <br> Research
+                                    and Collaborating
+                                </p>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div> <br> <br>
+            <div style="border: 5px solid rgb(150, 201, 213);" class="column is-8 ml-6 mr-6 box">
+                <h1 class="title"><a>My First Job as a Developer</a></h1><hr>
+                <p>3 Months After Writing My Firth Hello World Program On September 8th 2017 (While Working In The Marketing <br>
+                Departmen) I Had Convinced My Boss To Let Me Take a Stab At Building a Better Version of The Outdated <br>
+            Labaratory Managment System My Company Was Running On</p> <br> 
+
+            <p>Before I Knew It We Transioned From The Old System And We're On To Mine. Newvibe Self Was Now in Change <br>
+            Of Hosting Hunders Of Thousands Of Lab Samples and Supporting Thousands Of Clients</p><br>
+
+            <p>From This You'll See Than I'm Somone That Jumps Before I Can Talk My Self Out Of Doing Something Scary</p> <br>
+            <div class="columns">
+                <div class="column is-size-2">
+                    <i class="fa-brands fa-telegram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram-square"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+            </div>
+        </div><br><br>
+        <div class="columns tile">
+            <div style="border: 5px solid rgb(83, 93, 95);" class="column box tile is-child is-5">
+                <h1>My Exprience as a Developer</h1><hr>
+                <p>Full-Stack Developer at FOI Laboratories</p><br>
+                <p>Designed Build And Managet a Lab Managment System as a sole 
+                Developer, System Supported Thousands Of Customer <br> With a Ui For 
+            Lab Admins And a Customer Dashboard</p>
+            </div>
+            <div class="column is-1 ml-6"></div>
+            
+
+
+            <div style="border: 5px solid rgb(83, 93, 95);" class="column tile is-child is-5">
+                <h1>What I Know</h1><hr>
+                <p>Python Django, HTML/CSS, JavaScript/Jquery, React, Postgres, AWS
+                And Apis Such As Google Maps, JavaScript Chats And a Whole Bunch <br>
+            More I Can Possibly Mention In On Sentece <br> <br>
+            PS:Working on NodeJs, Mongo DB Machine Learning
+        </p>
+
+            </div>
+        </div><br> <br><br>
+        <div class="columns tile">
+            <div style="border: 5px solid rgb(83, 93, 95);" class="column  tile is-child is-5">
+                <h1>My Exprience as a Developer</h1><hr>
+                <p>Full-Stack Developer at FOI Laboratories</p><br>
+                <p>Designed Build And Managet a Lab Managment System as a sole 
+                Developer, System Supported Thousands Of Customer <br> With a Ui For 
+            Lab Admins And a Customer Dashboard</p>
+            </div>
+            <div class="column is-1 ml-6"></div>
+            
+
+
+            <div style="border: 5px solid rgb(83, 93, 95);" class="column  tile is-child is-5">
+                <h1>What I Know</h1><hr>
+                <p>Python Django, HTML/CSS, JavaScript/Jquery, React, Postgres, AWS
+                And Apis Such As Google Maps, JavaScript Chats And a Whole Bunch <br>
+            More I Can Possibly Mention In On Sentece <br> <br>
+            PS:Working on NodeJs, Mongo DB Machine Learning
+        </p>
+
+            </div>
+        </div>
+    </div>
+    {% block content %}
+
+    {% endblock content %}
+    
+</body>
+</html>
